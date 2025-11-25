@@ -6,9 +6,14 @@
 </head>
 <body>
     {% include 'partials/header.html' %}
-    {% block content %}
-    <!-- Page-specific content goes here -->
+    <main>
+        {% block content %}
+        <!-- Page-specific content goes here -->
+        {% endblock %}
+        {% include 'partials/footer.html' %}
+    </main>
+    {% block scripts %}
+        <!-- Page-specific scripts go here -->
     {% endblock %}
-    {% include 'partials/footer.html' %}
 </body>
 </html>

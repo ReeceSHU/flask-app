@@ -1,1 +1,17 @@
-[{"id":1,"first_name":"Alice","position":"Manager","email":"kdunnan0@aol.com"}]
+[
+    {
+        "name": "Alice",
+        "position": "Manager",
+        "department": "Sales"
+    },
+    {
+        "name": "Bob",
+        "position": "Developer",
+        "department": "IT"
+    },
+    {
+        "name": "Charlie",
+        "position": "Designer",
+        "department": "Marketing"
+    }
+]
