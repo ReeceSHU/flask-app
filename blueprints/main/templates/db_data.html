@@ -6,7 +6,8 @@ content %}
 <ul>
   {% for member in data %}
   <li>
-    {{ member.first_name }} {{ member.last_name }} —
+    {{ member.first_name }} {{ member.last_name }} — 
+    <a href="{{ url_for('main.staff_details', staff_id=member.id) }}">View Details</a>
   </li>
   {% endfor %}
 </ul>
